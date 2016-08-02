@@ -1,0 +1,5 @@
+function burst(){
+  alert
+  
+  
+}

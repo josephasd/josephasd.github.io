@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+img{position:absolute;
+border-radius: 50%;
+   width: 180px;
+}
+#ball { position:absolute;
+  
+  position: relative;
+  height: 180px;
+  width: 180px;
+  border: solid 15px;
+  border-radius: 50%;
+  background: linear-gradient(red, red, red, white, white, white);
+  overflow: hidden;
+  animation: shake 3s infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(360deg);
+/*     margin-left:80%;
+    height:400px;
+    width:400px; */
+  }
+  30% {
+     border-radius: 0;
+    
+  }
+  100% {
+    transform: rotate(-360deg);
+/*     margin-top: 40%; */
+    opacity: 0.2;
+  }
+  
+}
+#bar {
+  height: 10%;
+  width: 100%;
+  background: black;
+  margin-top: 45%
+}
+
+#button {
+  width: 30%;
+  height: 30%;
+  background: white;
+  position: relative;
+  top: -20%;
+  left: 35%;
+  border-radius: 50%;
+  border: solid 5px;  
+}
+#double {
+  height: 80%;
+  width: 80%;
+  background: lime;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  border-radius: 50%;
+  border: solid 5px ;
+  box-shadow: 3px 3px 3px 5px blue; border-left;
+}
+#shade {
+  height: 150%;
+  width: 150%;
+  opacity: 0.5;
+  background: radial-gradient(white,transparent,blue);
+  position: relative;
+   top:-120%;
+  left: -40%;
+}
+
